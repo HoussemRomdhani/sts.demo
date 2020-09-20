@@ -1,0 +1,127 @@
+{
+  "@coreui/coreui": {
+    "version": "3.3.0",
+    "files": [
+      {
+        "file": "/dist/css/coreui.css",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/css/coreui.css",
+        "local": "wwwroot/lib/@coreui/coreui/css/coreui.css",
+        "integrity": "sha384-9F/hVXLookAYDgJex6AXyxh/qhw1boLDklcd4I6+sTpsi8l4w2NVF/Lg8pDKzpfN"
+      },
+      {
+        "file": "/dist/css/coreui.min.css",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/css/coreui.min.css",
+        "local": "wwwroot/lib/@coreui/coreui/css/coreui.min.css",
+        "integrity": "sha384-W8VOMkyV8JN3EN/6ON/pYu6Ou//+HrrwqeS2uk0pMhHCY3RyyVVzgJo0FXADYC5D"
+      },
+      {
+        "file": "/dist/css/coreui.css.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/css/coreui.css.map",
+        "local": "wwwroot/lib/@coreui/coreui/css/coreui.css.map",
+        "integrity": "sha384-KJ4Z4PTKmRGQzOl2PpwKRKkEHuuueEIx3jffQCeE2GvhZ8T5juLjQC/QfxuGpHWo"
+      },
+      {
+        "file": "/dist/css/coreui.min.css.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/css/coreui.min.css.map",
+        "local": "wwwroot/lib/@coreui/coreui/css/coreui.min.css.map",
+        "integrity": "sha384-AO9Fp/xmMqsxQur88eJlMEKpgDqPqgbL6OWnHKg9tb1gC3bLkHDEcoSJnztMmqDZ"
+      },
+      {
+        "file": "/dist/js/coreui-utilities.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui-utilities.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui-utilities.js",
+        "integrity": "sha384-MkRLy3+MBrxiE+gT9+um6XfqH35GEaF8YeEkn10X1ckJsMTZrRGjmHSr7bxq9g53"
+      },
+      {
+        "file": "/dist/js/coreui-utilities.min.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui-utilities.min.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui-utilities.min.js",
+        "integrity": "sha384-Y+u/gPUn06v7RvJn+a1miR33F2kC2phxwDSaiGxno3862cmv8oZovbmG1fjrdg+K"
+      },
+      {
+        "file": "/dist/js/coreui.bundle.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.bundle.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.bundle.js",
+        "integrity": "sha384-yJkmzpWPUB0MAnU0bOa93WnN/9rjLJQQYffPjuvb3GZVGy/p9Isk8OJoVlBPi23A"
+      },
+      {
+        "file": "/dist/js/coreui.bundle.min.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.bundle.min.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.bundle.min.js",
+        "integrity": "sha384-gpR+UxaZxCaqfYnv49o5i72hQ7JRvFjmk3zXfKQBKXgY9UQEynqLxK8EA7NvAhTT"
+      },
+      {
+        "file": "/dist/js/coreui.esm.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.esm.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.esm.js",
+        "integrity": "sha384-6Z3CYH0ZiqwpQ8dlewvsmLahhg0pHEwANktAtIy/Bt1kkeSfEz6/JbZwA+iVxWN2"
+      },
+      {
+        "file": "/dist/js/coreui.esm.min.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.esm.min.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.esm.min.js",
+        "integrity": "sha384-YalMkd9sUXdQQejD7oEVkui0c9jWmk+CdXg/4TOeq1kuGncpn0CQ6d1YvkyITrcG"
+      },
+      {
+        "file": "/dist/js/coreui.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.js",
+        "integrity": "sha384-UGriucOM2YOwu57BYi4P0ImA8czMWpnioHwiC8FrUywiDBXpKi0SgrfXiHSFQUZq"
+      },
+      {
+        "file": "/dist/js/coreui.min.js",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.min.js",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.min.js",
+        "integrity": "sha384-uQXZwxpLJ3tg0rsKjZ8w9wMwYZhHF8X6hDYTVqQ+plp5BhZuU9EaNHhHwRC9wbYy"
+      },
+      {
+        "file": "/dist/js/coreui-utilities.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui-utilities.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui-utilities.js.map",
+        "integrity": "sha384-BaDWBStTouNlTbJvTpeD9+CQSgYMZdeQ7RDGGkI1vGTmS+OgGHEsNvKTR+988Y9i"
+      },
+      {
+        "file": "/dist/js/coreui-utilities.min.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui-utilities.min.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui-utilities.min.js.map",
+        "integrity": "sha384-Ew6GcHOiRvA8yhYz1nMsYIgg7NZyWVRcMe+bAIhO89l94miebe2JJw3yhMM1BHmv"
+      },
+      {
+        "file": "/dist/js/coreui.bundle.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.bundle.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.bundle.js.map",
+        "integrity": "sha384-iBtXkn8L+UP9c2PF8LuHjRcbSN6QNQmRmzBOEsstkVBBE76UY6JCvksXNCgzaRbM"
+      },
+      {
+        "file": "/dist/js/coreui.bundle.min.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.bundle.min.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.bundle.min.js.map",
+        "integrity": "sha384-YjeFYgFCtS6ZlCITmNdYf2AQhTE9qYZZe0GmVbhVD7axYPc8ltYBELcTtDqeVqkp"
+      },
+      {
+        "file": "/dist/js/coreui.esm.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.esm.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.esm.js.map",
+        "integrity": "sha384-cIJPG8ATkfVPFD3Hf/gkcTbTvGs1ueBtHSECBin6uNd++Uz+/wl9o3ZRT771RyqN"
+      },
+      {
+        "file": "/dist/js/coreui.esm.min.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.esm.min.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.esm.min.js.map",
+        "integrity": "sha384-UM8vGdiXOJFC2lggv2U2tt+cT3kGLXdhQ65PGL9YG/+7iJPzhE+DIcfUh31eBbo/"
+      },
+      {
+        "file": "/dist/js/coreui.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.js.map",
+        "integrity": "sha384-1XTEl+SfIG3OrB2WGuETUC554DUikQL/Px1dgwZeyYxR45MrAfrAxdIBjkXk3Y4H"
+      },
+      {
+        "file": "/dist/js/coreui.min.js.map",
+        "cdn": "https://unpkg.com/@coreui/coreui@3.3.0/dist/js/coreui.min.js.map",
+        "local": "wwwroot/lib/@coreui/coreui/js/coreui.min.js.map",
+        "integrity": "sha384-LXJiXbWpXwX2BVxhSoqc7c6p/FYP2/vCizoW5Qc4RWzpEU6hzVfrrE6EzLu8T95E"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+﻿.body-container {
+    margin-top: 60px;
+    padding-bottom:40px;
+}
+
+.welcome-page {
+    li {
+        list-style: none;
+        padding: 4px;
+    }
+}
+
+.logged-out-page {
+    iframe {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+
+.grants-page {
+    .card {
+        margin-top: 20px;
+        border-bottom: 1px solid lightgray;
+
+        .card-title {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            font-size: 120%;
+            font-weight: bold;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+html, body {
+    font-size: 100% !important;
+}
+
+body {
+    font-family: serif !important; /* Or sans-serif, monospace or whatever is appropriate. */
+}
+
+label.required:after {
+    color: #dc3545;
+    content: ' *';
+    display: inline;
+}
+
+.btn-no-waves .btn.waves-effect {
+    position: static;
+}
+
+@media (min-width:34em) {
+    .card-deck > .card {
+        width: 29%;
+        flex-wrap: inherit;
+        flex: initial;
+    }
+}
+
+.card.card-footer {
+    align-self: flex-end;
+    flex: 1 1 auto;
+}
+
+.card-footer {
+    height: 3em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.card-header {
+    height: 3em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+a:link {
+    margin-left: 10%;
+}
+
+
+.card-deck {
+    margin-bottom: 10px;
+}
+
+

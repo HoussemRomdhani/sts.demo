@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityRole>
+
+<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Administration</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Roles</li>
+    </ol>
+</nav>
+
+<div class="card">
+    <div class="card-header">
+        <a asp-action="Create">
+            Create role
+        </a>
+    </div>
+    <div class="card-body">
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <strong>@TempData["message"]</strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+
+        <table class="table table-striped table-sm m-1 p-1">
+            <tr>
+                <th>Name</th>
+                <th></th>
+            </tr>
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <td>@role.Name</td>
+
+                    <td>
+                        <a href="@Url.Action("Infos", "AdminRole", new { id = role.Id})">
+                            <i class="far fa-id-badge text-info"></i>
+                        </a> |
+                        <a href="@Url.Action("Update", "AdminRole", new { id = role.Id})">
+                            <i class="fas fa-user-edit text-info"></i>
+                        </a> |
+                        <a href="@Url.Action("Delete", "AdminRole", new { id = role.Id})">
+                            <i class="fas fa-user-times text-danger"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="card-footer">
+        <p style="text-align:right;" class="text-info">@Model.Count() role(s)</p>
+    </div>
+</div>

@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E2857762-900
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sts.core", "src\sts.core\sts.core.csproj", "{B4AC1E26-6658-47CF-86C4-1E228A3B62FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sts.api", "src\sts.api\sts.api.csproj", "{B6918D96-7360-4F02-8524-A1FB7F26EBA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sts.api", "src\sts.api\sts.api.csproj", "{B6918D96-7360-4F02-8524-A1FB7F26EBA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

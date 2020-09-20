@@ -1,0 +1,64 @@
+﻿@model identity.Models.RegisterModel
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Administration</a></li>
+        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Admin">Users</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Create user</li>
+    </ol>
+</nav>
+
+<div class="card">
+    <div class="card-header">
+        <a asp-action="Create">
+            Create user
+        </a>
+    </div>
+    <div class="card-body">
+        <form class="m-1 p-1" asp-action="Create" method="post">
+
+            @if (!Html.ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger" role="alert">
+                    <div asp-validation-summary="All"></div>
+                </div>
+            }
+
+            <div class="form-group">
+                <label asp-for="UserName" class="required"></label>
+                <input asp-for="UserName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="required"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="required"></label>
+                <input asp-for="Password" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-save"></i> Save
+            </button>
+            @*<input type="submit" class="btn btn-primary" value="Save" />*@
+        </form>
+    </div>
+</div>
+
+
+
+
+
+

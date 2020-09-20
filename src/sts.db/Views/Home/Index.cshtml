@@ -1,0 +1,72 @@
+@using System.Diagnostics
+
+@{
+    var version = FileVersionInfo.GetVersionInfo(typeof(IdentityServer4.Hosting.IdentityServerMiddleware).Assembly.Location).ProductVersion.Split('+').First();
+}
+
+<div class="welcome-page">
+
+    <h1>
+        <img src="~/icon.jpg">
+        Welcome to IdentityServer4
+        <small class="text-muted">(version @version)</small>
+    </h1>
+
+    <div class="row">
+        <div class="card-deck">
+            <div class="card border-dark btn-no-waves">
+                <div class="card-header text-primary"><i class="fas fa-users-cog"></i> User management</div>
+                <div class="card-body text-dark text-center">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a asp-action="Index" asp-controller="Admin" class="stretched-link btn btn-primary">Users</a>
+                </div>
+            </div>
+
+            <div class="card border-dark btn-no-waves">
+                <div class="card-header text-primary"><i class="fas fa-user-tag"></i> Role management</div>
+                <div class="card-body text-dark text-center">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a asp-action="Index" asp-controller="AdminRole" class="stretched-link btn btn-primary">Roles</a>
+                </div>
+            </div>
+            <div class="card border-dark btn-no-waves">
+                <div class="card-header text-primary"><i class="far fa-address-card"></i> Protected ressource management</div>
+                <div class="card-body text-dark text-center">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a asp-action="Index" asp-controller="Apis" class="stretched-link btn btn-primary">Apis</a>
+                </div>
+            </div>
+
+            <div class="card border-dark btn-no-waves">
+                <div class="card-header text-primary"><i class="far fa-address-card"></i> Api scopes management</div>
+                <div class="card-body text-dark text-center">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a asp-action="Index" asp-controller="ApiScopes" class="stretched-link btn btn-primary">Apis</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <br /><br />
+            <ul>
+                <li>
+                    IdentityServer publishes a
+                    <a href="~/.well-known/openid-configuration">discovery document</a>
+                    where you can find metadata and links to all the endpoints, key material, etc.
+                </li>
+                <li>
+                    Click <a href="~/diagnostics">here</a> to see the claims for your current session.
+                </li>
+                <li>
+                    Click <a href="~/grants">here</a> to manage your stored grants.
+                </li>
+                <li>
+                    Here are links to the
+                    <a href="https://github.com/identityserver/IdentityServer4">source code repository</a>,
+                    and <a href="https://github.com/IdentityServer/IdentityServer4/tree/main/samples">ready to use samples</a>.
+                </li>
+            </ul>
+    </div>
+</div>
